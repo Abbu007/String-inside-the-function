@@ -1,0 +1,7 @@
+def reverse(arg):
+    x=str(arg)
+    z=x[::-1] 
+    for i in z: 
+        print(i,end='') 
+a='1234abcd'
+reverse(a)
